@@ -37,7 +37,8 @@ body {
     height: 100%;
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.8;
-    color: #fff
+    color: #fff;
+    background-repeat:no-repeat 
 }
 
 .no-padding {
@@ -91,7 +92,7 @@ h1 {
 }
 
 h3 {
-    color: ##fff;
+    color: #fff;
 }
 
 h5 {
@@ -227,6 +228,8 @@ h5 {
 .box-logo {
     display: block;
     padding: 20px;
+    max-width: 50%;
+    height: auto
 }
 
 .box-primary-nav-trigger {
@@ -286,7 +289,7 @@ h5 {
 }
 
 .box-primary-nav-trigger .box-menu-icon.is-clicked {
-    background-color: #fff);
+    background-color: #fff;
 }
 
 .box-primary-nav-trigger .box-menu-icon.is-clicked::before,
@@ -336,7 +339,7 @@ h5 {
     top: 0;
     height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.37);
+    background: rgba(0, 0, 0, 0.582);
     z-index: 2;
     text-align: center;
     padding: 50px 0;
@@ -761,7 +764,7 @@ b i:last-child {
 
 .portfolio_item .portfolio_item_hover .item_info span {
     display: block;
-    color: #000000;
+    color: #fff;
     font-size: 18px;
     -webkit-transform: translateX(-100px);
     transform: translateX(-100px);
@@ -830,7 +833,7 @@ b i:last-child {
 footer {
     padding: 30px 0;
     text-align: center;
-    background: #000000
+    background: #1b1b1b
 }
 
 .copyright {
@@ -894,7 +897,7 @@ footer img {
 
 .top-bar {
     color: #333;
-    padding: 150px 0 150px;
+    padding: 100px 0 100px;
     background: -webkit-linear-gradient( rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url(../img/01.jpg);
     background: linear-gradient( rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url(../img/01.jpg);
     background-size: cover;
@@ -949,23 +952,6 @@ footer img {
 .social-ul li a:hover {
     color: #fff;
 }
-
-
-/* Services page
-==================================================*/
-
-.size-50 {
-    font-size: 50px;
-}
-
-.service-box {
-    margin-bottom: 30px;
-}
-
-.service-box h3 {
-    margin-top: 0;
-}
-
 
 /* contact page
 ==================================================*/
@@ -1100,6 +1086,9 @@ textarea:focus {
 /* single project page
 ==================================================*/
 
+body {
+    background-color: #000000
+}
 .cat-ul {
     padding-left: 0;
     list-style: none
